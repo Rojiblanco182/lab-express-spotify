@@ -8,8 +8,8 @@ app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
 
-const clientId = '3ce2b9f8730c497bb87dfd37d4e25ac1';
-const clientSecret = 'e08b204786f34eebb0df10a31a4df5b6';
+const clientId = ;//fill field
+const clientSecret = ;//fill field;
 
 const spotifyApi = new SpotifyWebApi({
   clientId: clientId,
